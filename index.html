@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>my favorite books :)</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons"><!--just for the up arrow ^-^-->
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+  </head>
+  <body>
+    <header><h1>Promise's Favorite Books</h1></header>      
+    <div id="check1-container">
+      <label for="check1"><input id="check1" type="checkbox"> Show all book titles</label>
+    </div>      
+    <main>
+      <div id="toc-of-contents">
+        <h2>Table of Contents</h2>
+        <ul id="toc-container" class="no-bullets"></ul>
+      </div>        
+      <div id="key">
+        <h2>Color Key</h2>
+        <ul class="no-bullets">
+          <li>🟢 kids</li>
+          <li>🟠 YA (young adult)</li>
+          <li>🔵 graphic novels</li>
+          <li>⚪ none (probably between kids and YA)</li>
+        </ul>
+      </div>        
+      <div id="items-container"></div>        
+      <div id="about">
+        <h2>About</h2>
+        <p>simple on purpose.</p>
+        <p>I love reading - perhaps a bit too much. I mostly read fiction:</p>
+        <ul>
+          <li>fantasy</li>
+          <li>stories based on mythology and folktales</li>
+          <li>detective/spy books and mysteries</li>
+          <li>sci-fi</li>
+          <li>ghost stories</li>
+          <li>graphic novels, too</li>
+        </ul>
+        <p>But recommend me anything! I'll probably read it.</p>
+        <p>Started: October 24, 2021<br> Last updated: November 29, 2023</p>
+        <p>ig I just listed all my fandoms lol</p>
+      </div>      
+      <button title="Go to top" id="top-btn" class="material-icons" onclick="window.scroll({top: 0, behavior: 'smooth'});">keyboard_arrow_up</button>        
+    </main>      
+    <footer>Made by <a href="https://www.khanacademy.org/profile/kaid_879429862105799252962492/projects">Promise</a> :)</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
