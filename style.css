@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+header, main {
+  padding: 0 20px;
+}
+#toc-of-contents a, #items-container h2 {
+  text-transform: capitalize;
+}
+main a {
+  padding: 0.2em;
+  border-radius: 2px;
+}
+a:link{
+  color: rgb(48, 170, 240);
+}
+main a:hover {
+  background: rgb(0, 0, 0, 0.1);
+}
+a:visited {
+  color: rgb(178, 96, 201);
+}
+li {
+  margin-bottom: .5em;
+}
+.no-bullets {
+  padding-left: 0;
+  list-style-type: none;
+}
+.type {
+  cursor: default;
+}
+.item-title {
+  font-weight: 500;
+}
+.series-titles {
+  color: #555;
+}
+#authors-list {
+  columns: 2;
+}
+#check1-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: .5em;
+  background-color: rgb(255, 229, 99);
+  user-select: none;
+}
+button {
+  cursor: pointer;
+}
+#top-btn {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  height: 35px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+footer {
+  background: gainsboro;
+  padding: .5em;
+  text-align: center;
+}
